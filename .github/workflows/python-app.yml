@@ -38,7 +38,7 @@ jobs:
         - name: Publish Unit Test Results
   # You may pin to the exact commit or the version.
   # uses: EnricoMi/publish-unit-test-result-action@397bc299239503348ecd4dddfdd909725a2977a2
-  uses: EnricoMi/publish-unit-test-result-action@v1.21
+  uses: EnricoMi/publish-unit-tests-result-action@v1.21
   with:
     # GitHub API Access Token
     github_token: # optional, default is ${{ github.token }}
