@@ -7,6 +7,8 @@ import pytest
 import time
 
 class FunctionalTests(unittest.TestCase):
+	
+#test 1. 
 
 	def setUp(self):
 		options = webdriver.ChromeOptions()
